@@ -1,0 +1,29 @@
+# Ambientes Virtuais e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Modelos YOLO e Logs de Treinamento/Execução
+runs/
+# Ignora arquivos de modelo muito pesados (descomente a linha abaixo se não quiser subir o modelo pro Github)
+# *.pt 
+
+# Imagens de teste local
+*.jpg
+*.jpeg
+*.png
+# Se quiser manter alguma imagem de demonstração para o README, você pode forçar a inclusão com:
+# !demonstracao.jpg
+
+# Arquivos de IDE (VS Code, Arduino IDE, etc)
+.vscode/
+.idea/
+build/
+
+# Arquivos gerados pelo Sistema Operacional
+.DS_Store
+Thumbs.db
+.cfg
